@@ -6,7 +6,6 @@ app.listen(3000 , ()=>
 );
 app.use("/test",(req,res) =>{
     res.send("Hello test")
-
 })
 app.use("/",(req,res)=>{
     res.send("Hello Home Page!!")
